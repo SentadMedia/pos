@@ -1,0 +1,51 @@
+{
+  "name": "pos",
+  "description": "pos description",
+  "author": {"name": "Soufiane Mghanen","email": "mgh.soufiane@gmail.com"},
+  "build": {
+    "appId": "com.pos"
+  },
+  "main": "public/electron.js",
+  "homepage": "./",
+  "version": "0.1.0",
+  "private": false,
+  "dependencies": {
+    "@types/jest": "24.0.13",
+    "@types/node": "12.0.6",
+    "@types/react": "16.8.19",
+    "@types/react-dom": "16.8.4",
+    "cross-env": "^5.2.0",
+    "electron-is-dev": "^1.1.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-scripts": "3.0.1",
+    "typescript": "3.5.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "concurrently": "^4.1.0",
+    "electron": "^5.0.2",
+    "electron-builder": "^20.43.0",
+    "wait-on": "^3.2.0"
+  }
+}
