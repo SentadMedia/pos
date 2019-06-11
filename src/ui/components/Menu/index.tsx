@@ -4,10 +4,4 @@ import Statistics from './Statistics';
 import Settings from './Settings';
 import Stock from './Stock';
 
-export {
-    Menu,
-    Caisse,
-    Statistics,
-    Settings,
-    Stock
-};
+export { Menu, Caisse, Statistics, Settings, Stock };
